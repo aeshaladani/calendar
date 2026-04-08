@@ -1,0 +1,11 @@
+.hero { position:relative; height:230px; overflow:hidden; background:linear-gradient(135deg,var(--grad-a),var(--grad-b)); flex-shrink:0; }
+.photo { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; object-position:center 40%; transition:opacity .7s ease; }
+.shapes { position:absolute; inset:0; width:100%; height:100%; pointer-events:none; }
+.title { position:absolute; bottom:0; right:0; padding:1.1rem 1.5rem; text-align:right; pointer-events:none; }
+.year { display:block; font-family:var(--font-body); font-size:11px; font-weight:500; color:rgba(255,255,255,.8); letter-spacing:3px; margin-bottom:3px; text-transform:uppercase; }
+.name { display:block; font-family:var(--font-display); font-size:32px; color:#fff; letter-spacing:2px; line-height:1; text-shadow:0 2px 14px rgba(0,0,0,.2); }
+.nav { position:absolute; top:50%; right:1.25rem; transform:translateY(-50%); display:flex; gap:8px; }
+.btn { background:rgba(255,255,255,.18); border:1.5px solid rgba(255,255,255,.4); color:#fff; width:36px; height:36px; border-radius:50%; font-size:20px; display:flex; align-items:center; justify-content:center; transition:background .15s,transform .1s; line-height:1; }
+.btn:hover { background:rgba(255,255,255,.35); transform:scale(1.08); }
+.btn:active { transform:scale(.94); }
+@media(max-width:600px){ .hero{height:170px;} .name{font-size:24px;} }

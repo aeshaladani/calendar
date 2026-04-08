@@ -1,0 +1,4 @@
+.row { display:flex; justify-content:center; gap:13px; padding:0 36px; margin-bottom:-2px; position:relative; z-index:2; }
+.coil { width:14px; height:20px; border:2px solid var(--accent); border-bottom:none; border-radius:50% 50% 0 0; position:relative; opacity:.65; transition:opacity .2s; }
+.coil:hover { opacity:1; }
+.stem { position:absolute; bottom:-5px; left:50%; transform:translateX(-50%); width:3px; height:6px; background:var(--accent); opacity:.6; border-radius:0 0 2px 2px; }

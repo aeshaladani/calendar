@@ -1,0 +1,5 @@
+.tabs { display:flex; gap:4px; background:var(--bg-subtle); border-radius:var(--r-lg); padding:4px; }
+.tab { display:flex; align-items:center; gap:6px; padding:7px 16px; border:none; background:transparent; border-radius:var(--r-md); font-size:13px; font-weight:500; color:var(--text-2); transition:background .15s,color .15s,box-shadow .15s; white-space:nowrap; }
+.tab:hover { background:var(--bg-card); color:var(--text-1); }
+.tab.active { background:var(--bg-card); color:var(--accent); box-shadow:var(--shadow-sm); }
+.icon { font-size:12px; opacity:.7; }

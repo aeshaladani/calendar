@@ -1,0 +1,15 @@
+.panel { padding:1.1rem; border-right:1px solid var(--border); display:flex; flex-direction:column; gap:12px; }
+.label { font-size:9px; font-weight:700; letter-spacing:1.2px; text-transform:uppercase; color:var(--text-3); }
+.padWrapper { position:relative; flex:1; min-height:150px; }
+.lines { position:absolute; inset:0; display:flex; flex-direction:column; justify-content:space-around; pointer-events:none; }
+.line { height:1px; background:var(--border); }
+.ta { position:absolute; inset:0; width:100%; height:100%; border:none; background:transparent; resize:none; outline:none; font-family:var(--font-body); font-size:12px; line-height:2.05; color:var(--text-1); }
+.ta::placeholder { color:var(--text-3); }
+.rangeBadge { background:var(--accent-light); border-left:3px solid var(--accent); border-radius:0 var(--r-sm) var(--r-sm) 0; padding:9px 11px; display:flex; flex-direction:column; gap:5px; }
+.rangeTitle { font-size:9px; font-weight:700; letter-spacing:.9px; text-transform:uppercase; color:var(--accent); }
+.rangeVal { font-size:12px; font-weight:600; color:var(--accent-dark); }
+.daysSpan { font-weight:400; font-size:10px; color:var(--accent); }
+.dayNote { width:100%; border:none; border-bottom:1.5px solid var(--accent); background:rgba(255,255,255,.5); border-radius:3px; resize:none; outline:none; font-family:var(--font-body); font-size:11px; color:var(--text-1); padding:5px 6px; }
+.dayNote::placeholder { color:var(--text-3); }
+.legend { display:flex; flex-direction:column; gap:4px; padding-top:8px; border-top:1px solid var(--border); }
+@media(max-width:600px){ .panel{border-right:none;border-bottom:1px solid var(--border);} }

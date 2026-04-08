@@ -1,0 +1,10 @@
+.root { width:100%; max-width:920px; margin:0 auto; }
+.card { background:var(--bg-card); border:.5px solid var(--border-strong); border-radius:var(--r-xl); overflow:hidden; box-shadow:var(--shadow); }
+.tabBar { display:flex; align-items:center; justify-content:space-between; padding:10px 1.25rem; border-bottom:1px solid var(--border); gap:12px; }
+.todayBtn { font-size:12px; font-weight:600; color:var(--accent); background:var(--accent-light); border:none; border-radius:20px; padding:5px 14px; transition:background .15s, transform .1s; white-space:nowrap; }
+.todayBtn:hover { background:var(--accent-mid); color:#fff; }
+.todayBtn:active { transform:scale(.96); }
+.body { overflow:hidden; }
+.monthLayout { display:grid; }
+.dayStrip { border-top:1px solid var(--border); padding:8px 1.25rem; background:var(--bg-subtle); }
+.stripHint { font-size:10px; color:var(--text-3); font-style:italic; }
