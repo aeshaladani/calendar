@@ -1,4 +1,4 @@
-# Wall Calendar v2 - Plan Artfully
+# Wall Calendar
 
 A physical wall-calendar-inspired productivity app with **Month**, **Week**, and **Day** views, drag-and-drop tasks, meal planning, water tracking, theme switching, and page-flip animations.
 
